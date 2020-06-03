@@ -1,16 +1,14 @@
-//
-//  ContentView.swift
-//  TestingCrashes
-//
-//  Created by Mihai Arosoaie on 01/06/2020.
-//  Copyright © 2020 Mihai Arosoaie. All rights reserved.
-//
-
 import SwiftUI
+import ReactiveSwift
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Button(action: {
+            let viewModel = ViewModel()
+            viewModel.activate()
+        }) {
+            Text("Press me")
+        }
     }
 }
 
