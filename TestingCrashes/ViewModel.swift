@@ -1,6 +1,7 @@
 import Foundation
 import ReactiveSwift
 
+// a3d793880b72dca3657c9fb6c187a302b1c404a185454bca5cf3b3317c89eb3a
 
 enum MyError: Error {
     case pleaseCrash
